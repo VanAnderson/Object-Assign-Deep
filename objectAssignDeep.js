@@ -116,7 +116,7 @@ function executeDeepMerge (target, _objects = [], _options = {}) {
 				}
 			}
 
-			else {
+			else if (type !== undefined) {
 				output[key] = value;
 			}
 
